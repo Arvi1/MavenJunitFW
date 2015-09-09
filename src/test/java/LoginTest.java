@@ -18,7 +18,7 @@ public class LoginTest {
 	  
 	  driver.get("https://www.facebook.com/");
 	 }  
-	 @Test
+	 @Test 
 	 public void SingIn() {
 		  driver.findElement(By.id("email")).sendKeys("Selenium");
 		  driver.findElement(By.id("pass")).sendKeys("Selenium");  
@@ -27,7 +27,7 @@ public class LoginTest {
 	  }
 	 @Test
 	 public void SignUp() {
-		  driver.findElement(By.id("u_0_a")).sendKeys("Selenium");
+		  driver.findElement(By.id("u_0_b")).sendKeys("Selenium");
 		  driver.findElement(By.id("u_0_c")).sendKeys("WebDriver"); 
 		  driver.findElement(By.id("u_0_e")).sendKeys("WebDriver@Selenium.com"); 
 		  driver.findElement(By.id("u_0_s")).click();		  
